@@ -54,7 +54,7 @@ def find_images(posting_dir):
     return []
 
 
-# posts the images found in the path to Tumbr
+# posts the images found in the path to Tumblr
 def post_image(posting_dir, image_paths):
     errors_while_posting = []
     tags = os.path.basename(posting_dir).split(' ')
